@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B9590852994C6D0002D0513 /* NearEarthObjectAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9590842994C6D0002D0513 /* NearEarthObjectAppApp.swift */; };
+		7B9590872994C6D0002D0513 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9590862994C6D0002D0513 /* ContentView.swift */; };
+		7B9590892994C6D6002D0513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9590882994C6D6002D0513 /* Assets.xcassets */; };
+		7B95908C2994C6D6002D0513 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B95908B2994C6D6002D0513 /* Preview Assets.xcassets */; };
+		7B9590942994CA9B002D0513 /* NasaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9590932994CA9B002D0513 /* NasaClient.swift */; };
+		7B9590972994CB39002D0513 /* RelativeVelocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9590962994CB39002D0513 /* RelativeVelocity.swift */; };
+		7B9590992994CB6E002D0513 /* MissDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9590982994CB6E002D0513 /* MissDistance.swift */; };
+		7B95909B2994CBCD002D0513 /* CloseApproachData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B95909A2994CBCD002D0513 /* CloseApproachData.swift */; };
+		7B95909D2994CC20002D0513 /* Asteriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B95909C2994CC20002D0513 /* Asteriod.swift */; };
+		7B95909F2994CC8E002D0513 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B95909E2994CC8E002D0513 /* Links.swift */; };
+		7B9590A12994CCCC002D0513 /* Asteriods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9590A02994CCCC002D0513 /* Asteriods.swift */; };
+		7B9590A32994CFEB002D0513 /* EstimatedDiameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9590A22994CFEB002D0513 /* EstimatedDiameter.swift */; };
+		7B9590A52994D016002D0513 /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9590A42994D016002D0513 /* Diameter.swift */; };
+		7B9590A72994D044002D0513 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9590A62994D044002D0513 /* ErrorResponse.swift */; };
+		7BDC350E299530B600F1216C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC350D299530B600F1216C /* ViewModel.swift */; };
+		7BDC351229955D4800F1216C /* LineChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC351129955D4800F1216C /* LineChartModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B9590812994C6D0002D0513 /* NearEarthObjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearEarthObjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9590842994C6D0002D0513 /* NearEarthObjectAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearEarthObjectAppApp.swift; sourceTree = "<group>"; };
+		7B9590862994C6D0002D0513 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B9590882994C6D6002D0513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B95908B2994C6D6002D0513 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B9590932994CA9B002D0513 /* NasaClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaClient.swift; sourceTree = "<group>"; };
+		7B9590962994CB39002D0513 /* RelativeVelocity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeVelocity.swift; sourceTree = "<group>"; };
+		7B9590982994CB6E002D0513 /* MissDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissDistance.swift; sourceTree = "<group>"; };
+		7B95909A2994CBCD002D0513 /* CloseApproachData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseApproachData.swift; sourceTree = "<group>"; };
+		7B95909C2994CC20002D0513 /* Asteriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asteriod.swift; sourceTree = "<group>"; };
+		7B95909E2994CC8E002D0513 /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		7B9590A02994CCCC002D0513 /* Asteriods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asteriods.swift; sourceTree = "<group>"; };
+		7B9590A22994CFEB002D0513 /* EstimatedDiameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatedDiameter.swift; sourceTree = "<group>"; };
+		7B9590A42994D016002D0513 /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
+		7B9590A62994D044002D0513 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		7BDC350D299530B600F1216C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7BDC351129955D4800F1216C /* LineChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B95907E2994C6D0002D0513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B9590782994C6D0002D0513 = {
+			isa = PBXGroup;
+			children = (
+				7B9590832994C6D0002D0513 /* NearEarthObjectApp */,
+				7B9590822994C6D0002D0513 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B9590822994C6D0002D0513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B9590812994C6D0002D0513 /* NearEarthObjectApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B9590832994C6D0002D0513 /* NearEarthObjectApp */ = {
+			isa = PBXGroup;
+			children = (
+				7BDC350C2995309100F1216C /* ViewModel */,
+				7B9590952994CAF5002D0513 /* Models */,
+				7B9590922994C91A002D0513 /* Client */,
+				7B9590842994C6D0002D0513 /* NearEarthObjectAppApp.swift */,
+				7B9590862994C6D0002D0513 /* ContentView.swift */,
+				7B9590882994C6D6002D0513 /* Assets.xcassets */,
+				7B95908A2994C6D6002D0513 /* Preview Content */,
+			);
+			path = NearEarthObjectApp;
+			sourceTree = "<group>";
+		};
+		7B95908A2994C6D6002D0513 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B95908B2994C6D6002D0513 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B9590922994C91A002D0513 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				7B9590932994CA9B002D0513 /* NasaClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		7B9590952994CAF5002D0513 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7B9590962994CB39002D0513 /* RelativeVelocity.swift */,
+				7B9590982994CB6E002D0513 /* MissDistance.swift */,
+				7B95909A2994CBCD002D0513 /* CloseApproachData.swift */,
+				7B95909C2994CC20002D0513 /* Asteriod.swift */,
+				7B95909E2994CC8E002D0513 /* Links.swift */,
+				7B9590A02994CCCC002D0513 /* Asteriods.swift */,
+				7B9590A22994CFEB002D0513 /* EstimatedDiameter.swift */,
+				7B9590A42994D016002D0513 /* Diameter.swift */,
+				7B9590A62994D044002D0513 /* ErrorResponse.swift */,
+				7BDC351129955D4800F1216C /* LineChartModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7BDC350C2995309100F1216C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7BDC350D299530B600F1216C /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B9590802994C6D0002D0513 /* NearEarthObjectApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B95908F2994C6D6002D0513 /* Build configuration list for PBXNativeTarget "NearEarthObjectApp" */;
+			buildPhases = (
+				7B95907D2994C6D0002D0513 /* Sources */,
+				7B95907E2994C6D0002D0513 /* Frameworks */,
+				7B95907F2994C6D0002D0513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearEarthObjectApp;
+			productName = NearEarthObjectApp;
+			productReference = 7B9590812994C6D0002D0513 /* NearEarthObjectApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B9590792994C6D0002D0513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7B9590802994C6D0002D0513 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 7B95907C2994C6D0002D0513 /* Build configuration list for PBXProject "NearEarthObjectApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B9590782994C6D0002D0513;
+			productRefGroup = 7B9590822994C6D0002D0513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B9590802994C6D0002D0513 /* NearEarthObjectApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B95907F2994C6D0002D0513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B95908C2994C6D6002D0513 /* Preview Assets.xcassets in Resources */,
+				7B9590892994C6D6002D0513 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B95907D2994C6D0002D0513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B95909B2994CBCD002D0513 /* CloseApproachData.swift in Sources */,
+				7B9590A12994CCCC002D0513 /* Asteriods.swift in Sources */,
+				7B9590A52994D016002D0513 /* Diameter.swift in Sources */,
+				7B9590A72994D044002D0513 /* ErrorResponse.swift in Sources */,
+				7BDC351229955D4800F1216C /* LineChartModel.swift in Sources */,
+				7B9590972994CB39002D0513 /* RelativeVelocity.swift in Sources */,
+				7B9590872994C6D0002D0513 /* ContentView.swift in Sources */,
+				7BDC350E299530B600F1216C /* ViewModel.swift in Sources */,
+				7B9590992994CB6E002D0513 /* MissDistance.swift in Sources */,
+				7B9590852994C6D0002D0513 /* NearEarthObjectAppApp.swift in Sources */,
+				7B95909D2994CC20002D0513 /* Asteriod.swift in Sources */,
+				7B9590A32994CFEB002D0513 /* EstimatedDiameter.swift in Sources */,
+				7B9590942994CA9B002D0513 /* NasaClient.swift in Sources */,
+				7B95909F2994CC8E002D0513 /* Links.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B95908D2994C6D6002D0513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B95908E2994C6D6002D0513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B9590902994C6D6002D0513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NearEarthObjectApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emarah.News.NearEarthObjectApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B9590912994C6D6002D0513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NearEarthObjectApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emarah.News.NearEarthObjectApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B95907C2994C6D0002D0513 /* Build configuration list for PBXProject "NearEarthObjectApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B95908D2994C6D6002D0513 /* Debug */,
+				7B95908E2994C6D6002D0513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B95908F2994C6D6002D0513 /* Build configuration list for PBXNativeTarget "NearEarthObjectApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9590902994C6D6002D0513 /* Debug */,
+				7B9590912994C6D6002D0513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B9590792994C6D0002D0513 /* Project object */;
+}
